@@ -1,157 +1,179 @@
 const frases = [
   // NÍVEL INICIAL
 
-  "o mouse esta na mesa",
+  "O mouse está na mesa.",
 
-  "use o teclado",
+  "Use o teclado.",
 
-  "abra o computador",
+  "Abra o computador.",
 
-  "ligue o monitor",
+  "Ligue o monitor.",
 
-  "mova o mouse",
+  "Mova o mouse.",
 
-  "clique no botao",
+  "Clique no botão.",
 
-  "abra uma pasta",
+  "Abra uma pasta.",
 
-  "salve o arquivo",
+  "Salve o arquivo.",
 
-  "feche a janela",
+  "Feche a janela.",
 
-  "use o teclado com calma",
+  "Use o teclado com calma.",
 
   // INFORMÁTICA BÁSICA
 
-  "o computador recebe dados",
+  "O computador recebe dados.",
 
-  "o monitor mostra imagens",
+  "O monitor mostra imagens.",
 
-  "o teclado permite escrever",
+  "O teclado permite escrever.",
 
-  "o mouse controla o ponteiro",
+  "O mouse controla o ponteiro.",
 
-  "uma pasta organiza arquivos",
+  "Uma pasta organiza arquivos.",
 
-  "um arquivo pode ser salvo",
+  "Um arquivo pode ser salvo.",
 
-  "o sistema possui programas",
+  "O sistema possui programas.",
 
-  "o usuario controla o computador",
+  "O usuário controla o computador.",
 
-  "a area de trabalho possui icones",
+  "A área de trabalho possui ícones.",
 
-  "o navegador permite acessar sites",
+  "O navegador permite acessar sites.",
 
   // PEÇAS DO COMPUTADOR
 
-  "o processador executa instrucoes",
+  "O processador executa instruções.",
 
-  "a memoria ram armazena dados temporarios",
+  "A memória RAM armazena dados temporários.",
 
-  "o ssd pode armazenar arquivos",
+  "O SSD pode armazenar arquivos.",
 
-  "a placa mae conecta os componentes",
+  "A placa-mãe conecta os componentes.",
 
-  "a fonte fornece energia ao computador",
+  "A fonte fornece energia ao computador.",
 
-  "o gabinete protege os componentes",
+  "O gabinete protege os componentes.",
 
-  "o cooler ajuda a resfriar o processador",
+  "O cooler ajuda a resfriar o processador.",
 
-  "o monitor utiliza uma placa de video",
+  "O monitor utiliza uma placa de vídeo.",
 
-  "o teclado e um dispositivo de entrada",
+  "O teclado é um dispositivo de entrada.",
 
-  "a impressora e um dispositivo de saida",
+  "A impressora é um dispositivo de saída.",
 
   // SENAI
 
-  "o senai oferece educacao profissional",
+  "O SENAI oferece educação profissional.",
 
-  "no senai aprendemos novas tecnologias",
+  "No SENAI aprendemos novas tecnologias.",
 
-  "a tecnologia esta presente nas empresas",
+  "A tecnologia está presente nas empresas.",
 
-  "os alunos desenvolvem novas habilidades",
+  "Os alunos desenvolvem novas habilidades.",
 
-  "a informatica ajuda no ambiente de trabalho",
+  "A informática ajuda no ambiente de trabalho.",
 
-  "o conhecimento transforma oportunidades",
+  "O conhecimento transforma oportunidades.",
 
-  "a pratica ajuda no aprendizado de informatica",
+  "A prática ajuda no aprendizado de informática.",
 
-  "os computadores sao importantes nas empresas",
+  "Os computadores são importantes nas empresas.",
 
-  "o senai prepara profissionais para o mercado",
+  "O SENAI prepara profissionais para o mercado.",
 
-  "a tecnologia pode melhorar processos de trabalho",
+  "A tecnologia pode melhorar processos de trabalho.",
 
   // SOFTWARE DE ESCRITÓRIO
 
-  "um editor de texto permite criar documentos",
+  "Um editor de texto permite criar documentos.",
 
-  "uma planilha permite organizar dados em tabelas",
+  "Uma planilha permite organizar dados em tabelas.",
 
-  "uma apresentacao pode utilizar textos e imagens",
+  "Uma apresentação pode utilizar textos e imagens.",
 
-  "os arquivos devem ser organizados em pastas",
+  "Os arquivos devem ser organizados em pastas.",
 
-  "salvar o documento evita perder o trabalho realizado",
+  "Salvar o documento evita perder o trabalho realizado.",
 
-  "copiar e colar sao operacoes comuns no computador",
+  "Copiar e colar são operações comuns no computador.",
 
-  "o usuario pode selecionar textos utilizando o mouse",
+  "O usuário pode selecionar textos utilizando o mouse.",
 
-  "um documento pode possuir diferentes tipos de formatacao",
+  "Um documento pode possuir diferentes tipos de formatação.",
 
-  "as planilhas podem realizar calculos automaticamente",
+  "As planilhas podem realizar cálculos automaticamente.",
 
-  "as apresentacoes ajudam a comunicar ideias de forma visual",
+  "As apresentações ajudam a comunicar ideias de forma visual.",
 
   // INTERMEDIÁRIO
 
-  "o sistema operacional controla os recursos do computador",
+  "O sistema operacional controla os recursos do computador.",
 
-  "o processador interpreta e executa instrucoes dos programas",
+  "O processador interpreta e executa instruções dos programas.",
 
-  "a memoria ram guarda informacoes enquanto o computador esta ligado",
+  "A memória RAM guarda informações enquanto o computador está ligado.",
 
-  "os dispositivos de entrada enviam informacoes para o computador",
+  "Os dispositivos de entrada enviam informações para o computador.",
 
-  "os dispositivos de saida apresentam informacoes para o usuario",
+  "Os dispositivos de saída apresentam informações para o usuário.",
 
-  "organizar corretamente os arquivos facilita encontrar documentos",
+  "Organizar corretamente os arquivos facilita encontrar documentos.",
 
-  "utilizar atalhos do teclado pode aumentar a produtividade no trabalho",
+  "Utilizar atalhos do teclado pode aumentar a produtividade no trabalho.",
 
-  "um bom profissional deve aprender a utilizar diferentes ferramentas digitais",
+  "Um bom profissional deve aprender a utilizar diferentes ferramentas digitais.",
 
-  "os computadores podem ser utilizados para estudar trabalhar criar e comunicar",
+  "Os computadores podem ser utilizados para estudar, trabalhar, criar e comunicar.",
 
-  "a informatica basica desenvolve habilidades importantes para diferentes profissoes",
+  "A informática básica desenvolve habilidades importantes para diferentes profissões.",
 
   // AVANÇADO
 
-  "antes de desligar o computador e importante salvar todos os documentos que estiverem abertos",
+  "Antes de desligar o computador, é importante salvar todos os documentos que estiverem abertos.",
 
-  "uma boa organizacao de arquivos utiliza nomes claros e pastas separadas por assunto",
+  "Uma boa organização de arquivos utiliza nomes claros e pastas separadas por assunto.",
 
-  "o uso correto do teclado e do mouse pode aumentar a velocidade na realizacao das atividades",
+  "O uso correto do teclado e do mouse pode aumentar a velocidade na realização das atividades.",
 
-  "os programas de escritorio sao utilizados para criar textos planilhas apresentacoes e documentos",
+  "Os programas de escritório são utilizados para criar textos, planilhas, apresentações e documentos.",
 
-  "aprender informatica ajuda o profissional a utilizar recursos digitais de maneira mais eficiente",
+  "Aprender informática ajuda o profissional a utilizar recursos digitais de maneira mais eficiente.",
 
-  "a seguranca digital depende de cuidados como utilizar senhas fortes e evitar arquivos desconhecidos",
+  "A segurança digital depende de cuidados como utilizar senhas fortes e evitar arquivos desconhecidos.",
 
-  "os alunos do senai desenvolvem competencias tecnicas por meio de atividades praticas e desafios",
+  "Os alunos do SENAI desenvolvem competências técnicas por meio de atividades práticas e desafios.",
 
-  "a tecnologia da informacao esta presente em praticamente todos os setores das empresas modernas",
+  "A tecnologia da informação está presente em praticamente todos os setores das empresas modernas.",
 
-  "o computador e formado por diferentes componentes que trabalham juntos para executar programas",
+  "O computador é formado por diferentes componentes que trabalham juntos para executar programas.",
 
-  "o conhecimento sobre hardware e software facilita a utilizacao e manutencao dos computadores",
+  "O conhecimento sobre hardware e software facilita a utilização e manutenção dos computadores.",
+
+  // CARACTERES ESPECIAIS
+
+  "Atenção: digite com calma, precisão e foco!",
+
+  "Você salvou o arquivo? Confira a pasta correta.",
+
+  "Atalho útil: pressione Ctrl + S para salvar.",
+
+  "O e-mail profissional usa o formato nome@empresa.com.",
+
+  "Evite senhas como 123456; prefira combinações fortes.",
+
+  "A placa-mãe custa R$ 450,00 em promoção.",
+
+  "Use palavras-chave: hardware, software e segurança.",
+
+  "O arquivo relatório-final_v2.docx está pronto.",
+
+  "Cuidado com links desconhecidos (eles podem ser perigosos)!",
+
+  "Tecnologia + prática = mais oportunidades.",
 ];
 
 let fraseAtual = 0;
@@ -415,6 +437,16 @@ function tremerTela() {
   }, 450);
 }
 
+function escolherProximaFrase() {
+  let proximaFrase;
+
+  do {
+    proximaFrase = Math.floor(Math.random() * frases.length);
+  } while (proximaFrase === fraseAtual && frases.length > 1);
+
+  fraseAtual = proximaFrase;
+}
+
 function concluirFrase() {
   acertos++;
 
@@ -429,11 +461,7 @@ function concluirFrase() {
   barraProgresso.style.width = "100%";
 
   setTimeout(function () {
-    fraseAtual++;
-
-    if (fraseAtual >= frases.length) {
-      fraseAtual = 0;
-    }
+    escolherProximaFrase();
 
     campo.disabled = false;
 
